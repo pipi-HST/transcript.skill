@@ -67,7 +67,7 @@ else:
 
 **NEEDS_SPLIT=false → 跳过，单 Agent 处理全文。**
 
-启动扫描 Agent（用 Haiku 速度更快）读全文找话题转折点。
+启动扫描 Agent（**必须指定 Haiku 模型**，速度快），读全文找话题转折点。
 
 **扫描 Agent Prompt（锁定，只能替换文件路径）：**
 
