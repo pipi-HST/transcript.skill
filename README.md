@@ -39,36 +39,36 @@
 ### Claude Code
 
 ```bash
-mkdir -p ~/.claude/skills/transcript
-cp -r . ~/.claude/skills/transcript/
+mkdir -p ~/.claude/skills/transcript.skill
+cp -r . ~/.claude/skills/transcript.skill/
 ```
 
 ### Gemini CLI
 
 ```bash
-mkdir -p ~/.gemini/skills/transcript
-cp -r . ~/.gemini/skills/transcript/
+mkdir -p ~/.gemini/skills/transcript.skill
+cp -r . ~/.gemini/skills/transcript.skill/
 ```
 
 ### Cursor
 
 ```bash
-mkdir -p ~/.cursor/skills/transcript
-cp -r . ~/.cursor/skills/transcript/
+mkdir -p ~/.cursor/skills/transcript.skill
+cp -r . ~/.cursor/skills/transcript.skill/
 ```
 
 ### Codex
 
 ```bash
-mkdir -p ~/.codex/skills/transcript
-cp -r . ~/.codex/skills/transcript/
+mkdir -p ~/.codex/skills/transcript.skill
+cp -r . ~/.codex/skills/transcript.skill/
 ```
 
 ### OpenCode
 
 ```bash
-mkdir -p ~/.config/opencode/skills/transcript
-cp -r . ~/.config/opencode/skills/transcript/
+mkdir -p ~/.config/opencode/skills/transcript.skill
+cp -r . ~/.config/opencode/skills/transcript.skill/
 ```
 
 ## 使用
