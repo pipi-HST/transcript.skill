@@ -172,7 +172,7 @@ ACTUAL=$(ls {dir}/clean_*.md 2>/dev/null | wc -l)
 cat {dir}/clean_*.md > 整理稿.md
 ```
 
-**速览 Agent（仅用户选了速览时启动）：**
+**拼接和速览 Agent 同时启动**（cat 是瞬间完成的，速览 Agent 读文件时已就绪）：
 
 ```
 读整理稿全文，写速览稿。
